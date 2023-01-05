@@ -70,11 +70,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(68, 165);
+            this.label1.Location = new System.Drawing.Point(68, 156);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "kullanıcı adı";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -87,7 +88,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(151, 159);
+            this.textBox1.Location = new System.Drawing.Point(151, 150);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(153, 22);
             this.textBox1.TabIndex = 3;
