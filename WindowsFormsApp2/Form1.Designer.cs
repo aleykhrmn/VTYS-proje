@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,6 +57,35 @@
             this.panel1.Size = new System.Drawing.Size(318, 403);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.richTextBox2.Location = new System.Drawing.Point(86, 215);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(159, 36);
+            this.richTextBox2.TabIndex = 11;
+            this.richTextBox2.Text = "";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.richTextBox1.Location = new System.Drawing.Point(86, 138);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(159, 36);
+            this.richTextBox1.TabIndex = 10;
+            this.richTextBox1.Text = "";
+            // 
+            // label4
+            // 
+            this.label4.AutoEllipsis = true;
+            this.label4.BackColor = System.Drawing.Color.DarkGray;
+            this.label4.Font = new System.Drawing.Font("Franklin Gothic Heavy", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.label4.Location = new System.Drawing.Point(59, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(212, 68);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "       \r\n     MEMBER LOGIN";
             // 
             // button3
             // 
@@ -93,6 +122,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "GİRİŞ";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -117,35 +147,6 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Kullanıcı Adı:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoEllipsis = true;
-            this.label4.BackColor = System.Drawing.Color.DarkGray;
-            this.label4.Font = new System.Drawing.Font("Franklin Gothic Heavy", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label4.Location = new System.Drawing.Point(59, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(212, 68);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "       \r\n     MEMBER LOGIN";
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.richTextBox1.Location = new System.Drawing.Point(86, 138);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(159, 36);
-            this.richTextBox1.TabIndex = 10;
-            this.richTextBox1.Text = "";
-            // 
-            // richTextBox2
-            // 
-            this.richTextBox2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.richTextBox2.Location = new System.Drawing.Point(86, 215);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(159, 36);
-            this.richTextBox2.TabIndex = 11;
-            this.richTextBox2.Text = "";
             // 
             // Form1
             // 
