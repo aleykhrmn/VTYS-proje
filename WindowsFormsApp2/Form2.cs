@@ -39,5 +39,11 @@ namespace WindowsFormsApp2
             stok_bilgi stb = new stok_bilgi();
             stb.ShowDialog();
         }
+
+        private void veresiyeSatışToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            veresiye_satis vst = new veresiye_satis();
+            vst.ShowDialog();
+        }
     }
 }

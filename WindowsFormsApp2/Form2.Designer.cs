@@ -100,6 +100,7 @@
             this.veresiyeSatışToolStripMenuItem.Name = "veresiyeSatışToolStripMenuItem";
             this.veresiyeSatışToolStripMenuItem.Size = new System.Drawing.Size(221, 30);
             this.veresiyeSatışToolStripMenuItem.Text = "Veresiye Satış";
+            this.veresiyeSatışToolStripMenuItem.Click += new System.EventHandler(this.veresiyeSatışToolStripMenuItem_Click);
             // 
             // peşinSatışToolStripMenuItem
             // 
