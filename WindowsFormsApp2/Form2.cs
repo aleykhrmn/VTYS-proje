@@ -27,5 +27,11 @@ namespace WindowsFormsApp2
             odeme_ekrani ode = new odeme_ekrani();
             ode.ShowDialog();
         }
+
+        private void ürünEklemeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            urun_ekle ure = new urun_ekle();
+            ure.ShowDialog();
+        }
     }
 }

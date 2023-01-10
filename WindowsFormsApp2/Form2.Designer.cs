@@ -144,6 +144,7 @@
             this.ürünEklemeToolStripMenuItem.Name = "ürünEklemeToolStripMenuItem";
             this.ürünEklemeToolStripMenuItem.Size = new System.Drawing.Size(298, 30);
             this.ürünEklemeToolStripMenuItem.Text = "Ürün Ekleme";
+            this.ürünEklemeToolStripMenuItem.Click += new System.EventHandler(this.ürünEklemeToolStripMenuItem_Click);
             // 
             // stokBilgiGörüntülemeToolStripMenuItem
             // 
