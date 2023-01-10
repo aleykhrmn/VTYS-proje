@@ -151,6 +151,7 @@
             this.stokBilgiGörüntülemeToolStripMenuItem.Name = "stokBilgiGörüntülemeToolStripMenuItem";
             this.stokBilgiGörüntülemeToolStripMenuItem.Size = new System.Drawing.Size(298, 30);
             this.stokBilgiGörüntülemeToolStripMenuItem.Text = "Stok bilgi görüntüleme";
+            this.stokBilgiGörüntülemeToolStripMenuItem.Click += new System.EventHandler(this.stokBilgiGörüntülemeToolStripMenuItem_Click);
             // 
             // borçToolStripMenuItem
             // 

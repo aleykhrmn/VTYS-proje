@@ -33,5 +33,11 @@ namespace WindowsFormsApp2
             urun_ekle ure = new urun_ekle();
             ure.ShowDialog();
         }
+
+        private void stokBilgiGörüntülemeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            stok_bilgi stb = new stok_bilgi();
+            stb.ShowDialog();
+        }
     }
 }
