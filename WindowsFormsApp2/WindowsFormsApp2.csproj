@@ -82,6 +82,12 @@
     <Compile Include="Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
+    <Compile Include="odeme_ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="odeme_ekrani.Designer.cs">
+      <DependentUpon>odeme_ekrani.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

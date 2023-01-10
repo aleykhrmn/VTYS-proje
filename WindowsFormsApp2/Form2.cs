@@ -21,5 +21,11 @@ namespace WindowsFormsApp2
         {
 
         }
+
+        private void ödemeEkranıToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            odeme_ekrani ode = new odeme_ekrani();
+            ode.ShowDialog();
+        }
     }
 }
