@@ -114,6 +114,12 @@
     <Compile Include="urun_ekle.Designer.cs">
       <DependentUpon>urun_ekle.cs</DependentUpon>
     </Compile>
+    <Compile Include="urun_listele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="urun_listele.Designer.cs">
+      <DependentUpon>urun_listele.cs</DependentUpon>
+    </Compile>
     <Compile Include="veresiye_satis.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +162,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="urun_ekle.resx">
+      <DependentUpon>urun_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="urun_listele.resx">
+      <DependentUpon>urun_listele.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="veresiye_satis.resx">
       <DependentUpon>veresiye_satis.cs</DependentUpon>
     </EmbeddedResource>

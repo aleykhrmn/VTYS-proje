@@ -58,5 +58,17 @@ namespace WindowsFormsApp2
             musteri_listele listele = new musteri_listele();
             listele.ShowDialog();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            urun_listele u_listele = new urun_listele();
+            u_listele.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            urun_ekle u_ekle = new  urun_ekle();
+            u_ekle.ShowDialog();
+        }
     }
 }
