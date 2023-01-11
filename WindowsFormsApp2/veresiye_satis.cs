@@ -70,5 +70,11 @@ namespace WindowsFormsApp2
             urun_ekle u_ekle = new  urun_ekle();
             u_ekle.ShowDialog();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            satis_listele   satis_listele = new satis_listele();
+            satis_listele.ShowDialog();
+        }
     }
 }
