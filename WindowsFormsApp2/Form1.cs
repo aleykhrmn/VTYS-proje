@@ -43,5 +43,10 @@ namespace WindowsFormsApp2
             fr2.ShowDialog();
 
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
