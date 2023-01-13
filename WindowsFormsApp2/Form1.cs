@@ -7,11 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
     {
+        SqlConnection con;
+        SqlDataReader dr;
+        SqlCommand com;
         public Form1()
         {
             InitializeComponent();
@@ -39,8 +44,27 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 fr2 = new Form2();
-            fr2.ShowDialog();
+            string user = richTextBox1.Text;
+            string password = richTextBox2.Text;
+            con = new SqlConnection("Data Source=DESKTOP-33VOEVQ;Initial Catalog=Market;Integrated Security=True");
+            com = new SqlCommand();
+            con.Open();
+            com.Connection = con;
+            com.CommandText = "Select * from kullaniciGiriş where kullaniciAdi= '" + richTextBox1.Text + "' And şifre = '" + richTextBox2.Text + "'";
+
+            dr = com.ExecuteReader();
+            if (dr.Read())
+            {
+                MessageBox.Show("Başarılı ");
+                Form2 fr2 = new Form2();
+                fr2.ShowDialog();
+
+            }
+            else
+            {
+                MessageBox.Show("Hatalı giris");
+            }
+            con.Close();
 
         }
 
