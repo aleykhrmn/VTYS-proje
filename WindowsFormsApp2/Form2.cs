@@ -45,5 +45,11 @@ namespace WindowsFormsApp2
             veresiye_satis vst = new veresiye_satis();
             vst.ShowDialog();
         }
+
+        private void müşteriEklemeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            musteri_ekle musteri_ekle = new musteri_ekle();
+            musteri_ekle.ShowDialog();
+        }
     }
 }

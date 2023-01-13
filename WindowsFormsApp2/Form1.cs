@@ -46,11 +46,11 @@ namespace WindowsFormsApp2
         {
             string user = richTextBox1.Text;
             string password = richTextBox2.Text;
-            con = new SqlConnection("Data Source=DESKTOP-33VOEVQ;Initial Catalog=Market;Integrated Security=True");
+            con = new SqlConnection("Data Source=ALEYY;Initial Catalog=market;Integrated Security=True");
             com = new SqlCommand();
             con.Open();
             com.Connection = con;
-            com.CommandText = "Select * from kullaniciGiriş where kullaniciAdi= '" + richTextBox1.Text + "' And şifre = '" + richTextBox2.Text + "'";
+            com.CommandText = "Select * from login where kullanıcıAdı= '" + richTextBox1.Text + "' And şifre = '" + richTextBox2.Text + "'";
 
             dr = com.ExecuteReader();
             if (dr.Read())
