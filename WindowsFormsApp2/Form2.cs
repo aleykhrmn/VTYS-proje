@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,7 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
-
+        SqlConnection baglanti = new SqlConnection("Data Source=ALEYY;Initial Catalog=market;Integrated Security=True");
         private void button4_Click(object sender, EventArgs e)
         {
 
@@ -50,6 +51,13 @@ namespace WindowsFormsApp2
         {
             musteri_ekle musteri_ekle = new musteri_ekle();
             musteri_ekle.ShowDialog();
+        }
+
+        private void müşteriListaleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            musteri_listele musteri_listele = new musteri_listele();
+            musteri_listele.ShowDialog();
         }
     }
 }

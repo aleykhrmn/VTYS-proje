@@ -43,6 +43,7 @@
             this.stokBilgiGörüntülemeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.borçToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.müşteriEklemeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.müşteriListaleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,7 +69,8 @@
             this.raporToolStripMenuItem,
             this.stokToolStripMenuItem,
             this.borçToolStripMenuItem,
-            this.müşteriEklemeToolStripMenuItem});
+            this.müşteriEklemeToolStripMenuItem,
+            this.müşteriListaleToolStripMenuItem});
             this.mENUToolStripMenuItem.Font = new System.Drawing.Font("Franklin Gothic Heavy", 20F);
             this.mENUToolStripMenuItem.Name = "mENUToolStripMenuItem";
             this.mENUToolStripMenuItem.Size = new System.Drawing.Size(125, 43);
@@ -172,6 +174,14 @@
             this.müşteriEklemeToolStripMenuItem.Text = "Müşteri ekleme";
             this.müşteriEklemeToolStripMenuItem.Click += new System.EventHandler(this.müşteriEklemeToolStripMenuItem_Click);
             // 
+            // müşteriListaleToolStripMenuItem
+            // 
+            this.müşteriListaleToolStripMenuItem.Font = new System.Drawing.Font("Franklin Gothic Heavy", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.müşteriListaleToolStripMenuItem.Name = "müşteriListaleToolStripMenuItem";
+            this.müşteriListaleToolStripMenuItem.Size = new System.Drawing.Size(288, 36);
+            this.müşteriListaleToolStripMenuItem.Text = "Müşteri listele";
+            this.müşteriListaleToolStripMenuItem.Click += new System.EventHandler(this.müşteriListaleToolStripMenuItem_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -207,5 +217,6 @@
         private System.Windows.Forms.ToolStripMenuItem stokBilgiGörüntülemeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem borçToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem müşteriEklemeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem müşteriListaleToolStripMenuItem;
     }
 }

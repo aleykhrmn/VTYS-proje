@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,8 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
         }
-
+        SqlConnection baglanti = new SqlConnection("Data Source=ALEYY;Initial Catalog=market;Integrated Security=True");
+        DataSet daset = new DataSet();
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -25,6 +27,27 @@ namespace WindowsFormsApp2
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void musteri_listele_Load(object sender, EventArgs e)
+        {
+            Kayıt_Göster();
+        }
+
+        private void Kayıt_Göster()
+        {
+            baglanti.Open();
+            SqlDataAdapter adtr = new SqlDataAdapter("select *from müşteri1", baglanti);
+            adtr.Fill(daset, "müşteri1");
+            dataGridView1.DataSource = daset.Tables["müşteri1"];
+            baglanti.Close();
+        }
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            textBox1.Text = dataGridView1.CurrentRow.Cells["müşteri_no"].Value.ToString();
+            textBox2.Text = dataGridView1.CurrentRow.Cells["müşteriAdi"].Value.ToString();
+            textBox3.Text = dataGridView1.CurrentRow.Cells["müşteriSoyadi"].Value.ToString();
         }
     }
 }
