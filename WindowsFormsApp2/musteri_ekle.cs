@@ -27,10 +27,10 @@ namespace WindowsFormsApp2
         private void button1_Click(object sender, EventArgs e)
         {
             baglanti.Open();
-            SqlCommand komut = new SqlCommand("insert into müşteri1(müşteri_no,müşteriAdi,müşteriSoyadi) values(@müşteri_no,@müşteriAdi,@müşteriSoyadi)");
-            komut.Parameters.AddWithValue("@müşteri_no", textBox1.Text);
-            komut.Parameters.AddWithValue("@müşteriAdi", textBox2.Text);
-            komut.Parameters.AddWithValue("@müşteriSoyadi", textBox3.Text);
+            SqlCommand komut = new SqlCommand("insert into müsteri1(müsteri_no,müsteri_ad,müsteri_soyad) values(@müsteri_no,@müsteri_ad,@müsteri_soyad)");
+            komut.Parameters.AddWithValue("@müsteri_no", textBox1.Text);
+            komut.Parameters.AddWithValue("@müsteri_ad", textBox2.Text);
+            komut.Parameters.AddWithValue("@müsteri_soyad", textBox3.Text);
             //komut.ExecuteNonQuery();
             //baglanti.Close();
             MessageBox.Show("Yeni müşteri eklendi.");

@@ -50,7 +50,7 @@ namespace WindowsFormsApp2
             com = new SqlCommand();
             con.Open();
             com.Connection = con;
-            com.CommandText = "Select * from login where kullanıcıAdı= '" + richTextBox1.Text + "' And şifre = '" + richTextBox2.Text + "'";
+            com.CommandText = "Select * from login1 where kullanici_adi= '" + richTextBox1.Text + "' And sifre = '" + richTextBox2.Text + "'";
 
             dr = com.ExecuteReader();
             if (dr.Read())

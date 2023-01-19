@@ -37,17 +37,17 @@ namespace WindowsFormsApp2
         private void Kayıt_Göster()
         {
             baglanti.Open();
-            SqlDataAdapter adtr = new SqlDataAdapter("select *from müşteri1", baglanti);
-            adtr.Fill(daset, "müşteri1");
-            dataGridView1.DataSource = daset.Tables["müşteri1"];
+            SqlDataAdapter adtr = new SqlDataAdapter("select *from müsteri1", baglanti);
+            adtr.Fill(daset, "müsteri1");
+            dataGridView1.DataSource = daset.Tables["müsteri1"];
             baglanti.Close();
         }
 
         private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            textBox1.Text = dataGridView1.CurrentRow.Cells["müşteri_no"].Value.ToString();
-            textBox2.Text = dataGridView1.CurrentRow.Cells["müşteriAdi"].Value.ToString();
-            textBox3.Text = dataGridView1.CurrentRow.Cells["müşteriSoyadi"].Value.ToString();
+            textBox1.Text = dataGridView1.CurrentRow.Cells["müsteri_no"].Value.ToString();
+            textBox2.Text = dataGridView1.CurrentRow.Cells["müsteri_ad"].Value.ToString();
+            textBox3.Text = dataGridView1.CurrentRow.Cells["müsteri_soyad"].Value.ToString();
         }
     }
 }
