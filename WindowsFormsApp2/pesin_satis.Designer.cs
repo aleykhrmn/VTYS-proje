@@ -65,7 +65,7 @@
             this.groupBox2.Controls.Add(this.textBox4);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Font = new System.Drawing.Font("Arial Black", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.groupBox2.Location = new System.Drawing.Point(22, 169);
+            this.groupBox2.Location = new System.Drawing.Point(32, 180);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(215, 225);
             this.groupBox2.TabIndex = 2;
