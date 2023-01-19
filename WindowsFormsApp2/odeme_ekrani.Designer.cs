@@ -72,7 +72,7 @@
             // 
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label4.Location = new System.Drawing.Point(47, 233);
+            this.label4.Location = new System.Drawing.Point(38, 242);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(128, 23);
             this.label4.TabIndex = 3;
