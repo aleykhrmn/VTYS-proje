@@ -70,6 +70,7 @@ namespace WindowsFormsApp2
         {
             pesin_satis pesinsatis = new pesin_satis();
             pesinsatis.ShowDialog();
+
         }
     }
 }
