@@ -66,9 +66,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Franklin Gothic Heavy", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.groupBox1.Location = new System.Drawing.Point(107, 102);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(355, 414);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -76,10 +76,10 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkGray;
+            this.button1.BackColor = System.Drawing.Color.Sienna;
             this.button1.Font = new System.Drawing.Font("Franklin Gothic Heavy", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.button1.Location = new System.Drawing.Point(116, 329);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(141, 52);
             this.button1.TabIndex = 8;
@@ -89,32 +89,36 @@
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.Color.SeaShell;
             this.textBox4.Location = new System.Drawing.Point(144, 242);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(159, 30);
             this.textBox4.TabIndex = 7;
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.Color.SeaShell;
             this.textBox3.Location = new System.Drawing.Point(144, 188);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(159, 30);
             this.textBox3.TabIndex = 6;
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.SeaShell;
             this.textBox2.Location = new System.Drawing.Point(144, 142);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(159, 30);
             this.textBox2.TabIndex = 5;
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.SeaShell;
             this.textBox1.Location = new System.Drawing.Point(144, 95);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(159, 30);
             this.textBox1.TabIndex = 4;
@@ -177,9 +181,9 @@
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Font = new System.Drawing.Font("Franklin Gothic Heavy", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.groupBox2.Location = new System.Drawing.Point(596, 102);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(365, 414);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
@@ -187,10 +191,10 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkGray;
+            this.button2.BackColor = System.Drawing.Color.Sienna;
             this.button2.Font = new System.Drawing.Font("Franklin Gothic Heavy", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.button2.Location = new System.Drawing.Point(116, 329);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(141, 52);
             this.button2.TabIndex = 17;
@@ -199,32 +203,36 @@
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.Color.SeaShell;
             this.textBox5.Location = new System.Drawing.Point(144, 242);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(159, 30);
             this.textBox5.TabIndex = 16;
             // 
             // textBox6
             // 
+            this.textBox6.BackColor = System.Drawing.Color.SeaShell;
             this.textBox6.Location = new System.Drawing.Point(144, 188);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(159, 30);
             this.textBox6.TabIndex = 15;
             // 
             // textBox7
             // 
+            this.textBox7.BackColor = System.Drawing.Color.SeaShell;
             this.textBox7.Location = new System.Drawing.Point(144, 142);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(159, 30);
             this.textBox7.TabIndex = 14;
             // 
             // textBox8
             // 
+            this.textBox8.BackColor = System.Drawing.Color.SeaShell;
             this.textBox8.Location = new System.Drawing.Point(144, 95);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(159, 30);
             this.textBox8.TabIndex = 13;
@@ -278,10 +286,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.login2;
             this.ClientSize = new System.Drawing.Size(1091, 602);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "urun_ekle";
             this.Text = "urun_ekle";
             this.groupBox1.ResumeLayout(false);
