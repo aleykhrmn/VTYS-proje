@@ -96,12 +96,6 @@
     <Compile Include="stoklar.Designer.cs">
       <DependentUpon>stoklar.cs</DependentUpon>
     </Compile>
-    <Compile Include="stok_bilgi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="stok_bilgi.Designer.cs">
-      <DependentUpon>stok_bilgi.cs</DependentUpon>
-    </Compile>
     <Compile Include="stok_ekle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,9 +159,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="stoklar.resx">
       <DependentUpon>stoklar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="stok_bilgi.resx">
-      <DependentUpon>stok_bilgi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="stok_ekle.resx">
       <DependentUpon>stok_ekle.cs</DependentUpon>
