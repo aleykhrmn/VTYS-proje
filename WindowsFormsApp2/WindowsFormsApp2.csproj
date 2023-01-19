@@ -58,6 +58,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="musteri_ekle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,11 +90,29 @@
     <Compile Include="satis_listele.Designer.cs">
       <DependentUpon>satis_listele.cs</DependentUpon>
     </Compile>
+    <Compile Include="stoklar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stoklar.Designer.cs">
+      <DependentUpon>stoklar.cs</DependentUpon>
+    </Compile>
     <Compile Include="stok_bilgi.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="stok_bilgi.Designer.cs">
       <DependentUpon>stok_bilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stok_ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_ekle.Designer.cs">
+      <DependentUpon>stok_ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stok_güncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_güncelle.Designer.cs">
+      <DependentUpon>stok_güncelle.cs</DependentUpon>
     </Compile>
     <Compile Include="urun_ekle.cs">
       <SubType>Form</SubType>
@@ -114,6 +138,9 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="musteri_ekle.resx">
       <DependentUpon>musteri_ekle.cs</DependentUpon>
     </EmbeddedResource>
@@ -136,8 +163,17 @@
     <EmbeddedResource Include="satis_listele.resx">
       <DependentUpon>satis_listele.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="stoklar.resx">
+      <DependentUpon>stoklar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="stok_bilgi.resx">
       <DependentUpon>stok_bilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_ekle.resx">
+      <DependentUpon>stok_ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_güncelle.resx">
+      <DependentUpon>stok_güncelle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="urun_ekle.resx">
       <DependentUpon>urun_ekle.cs</DependentUpon>
