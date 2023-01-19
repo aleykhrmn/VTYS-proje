@@ -24,13 +24,20 @@ namespace WindowsFormsApp2
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            stoklar stok = new stoklar();
+            stok.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             stok_ekle stok_ekle = new stok_ekle();
             stok_ekle.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            stok_güncelle stok_güncelle = new stok_güncelle();
+            stok_güncelle.ShowDialog();
         }
     }
 }
