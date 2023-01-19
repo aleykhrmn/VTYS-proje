@@ -59,5 +59,11 @@ namespace WindowsFormsApp2
             musteri_listele musteri_listele = new musteri_listele();
             musteri_listele.ShowDialog();
         }
+
+        private void stokToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3  stok_ekranı = new Form3();
+            stok_ekranı.ShowDialog();
+        }
     }
 }

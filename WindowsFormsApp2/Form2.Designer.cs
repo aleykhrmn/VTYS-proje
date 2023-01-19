@@ -39,8 +39,6 @@
             this.müşteriBorçDurumRaporuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.karZararDurumRaporlarıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stokToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ürünEklemeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.stokBilgiGörüntülemeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.borçToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.müşteriEklemeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.müşteriListaleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -138,27 +136,11 @@
             // 
             // stokToolStripMenuItem
             // 
-            this.stokToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ürünEklemeToolStripMenuItem,
-            this.stokBilgiGörüntülemeToolStripMenuItem});
             this.stokToolStripMenuItem.Font = new System.Drawing.Font("Franklin Gothic Heavy", 15F);
             this.stokToolStripMenuItem.Name = "stokToolStripMenuItem";
             this.stokToolStripMenuItem.Size = new System.Drawing.Size(235, 30);
             this.stokToolStripMenuItem.Text = "Stok";
-            // 
-            // ürünEklemeToolStripMenuItem
-            // 
-            this.ürünEklemeToolStripMenuItem.Name = "ürünEklemeToolStripMenuItem";
-            this.ürünEklemeToolStripMenuItem.Size = new System.Drawing.Size(298, 30);
-            this.ürünEklemeToolStripMenuItem.Text = "Ürün Ekleme";
-            this.ürünEklemeToolStripMenuItem.Click += new System.EventHandler(this.ürünEklemeToolStripMenuItem_Click);
-            // 
-            // stokBilgiGörüntülemeToolStripMenuItem
-            // 
-            this.stokBilgiGörüntülemeToolStripMenuItem.Name = "stokBilgiGörüntülemeToolStripMenuItem";
-            this.stokBilgiGörüntülemeToolStripMenuItem.Size = new System.Drawing.Size(298, 30);
-            this.stokBilgiGörüntülemeToolStripMenuItem.Text = "Stok bilgi görüntüleme";
-            this.stokBilgiGörüntülemeToolStripMenuItem.Click += new System.EventHandler(this.stokBilgiGörüntülemeToolStripMenuItem_Click);
+            this.stokToolStripMenuItem.Click += new System.EventHandler(this.stokToolStripMenuItem_Click);
             // 
             // borçToolStripMenuItem
             // 
@@ -192,7 +174,7 @@
             this.ClientSize = new System.Drawing.Size(666, 431);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form2";
             this.Text = "Form2";
             this.menuStrip1.ResumeLayout(false);
@@ -215,8 +197,6 @@
         private System.Windows.Forms.ToolStripMenuItem müşteriBorçDurumRaporuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem karZararDurumRaporlarıToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem stokToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ürünEklemeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem stokBilgiGörüntülemeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem borçToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem müşteriEklemeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem müşteriListaleToolStripMenuItem;
