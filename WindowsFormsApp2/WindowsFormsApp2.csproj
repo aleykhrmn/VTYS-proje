@@ -131,9 +131,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="satis_listele.resx">
       <DependentUpon>satis_listele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_bilgi.resx">
+      <DependentUpon>stok_bilgi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="urun_ekle.resx">
       <DependentUpon>urun_ekle.cs</DependentUpon>
@@ -156,6 +160,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

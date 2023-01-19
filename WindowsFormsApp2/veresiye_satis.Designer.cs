@@ -253,7 +253,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.BackColor = System.Drawing.Color.Sienna;
             this.button1.Font = new System.Drawing.Font("Franklin Gothic Heavy", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.button1.Location = new System.Drawing.Point(310, 483);
             this.button1.Name = "button1";
@@ -264,7 +264,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button2.BackColor = System.Drawing.Color.Sienna;
             this.button2.Font = new System.Drawing.Font("Franklin Gothic Heavy", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.button2.Location = new System.Drawing.Point(732, 483);
             this.button2.Name = "button2";
@@ -275,7 +275,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button3.BackColor = System.Drawing.Color.Sienna;
             this.button3.Font = new System.Drawing.Font("Franklin Gothic Heavy", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.button3.Location = new System.Drawing.Point(935, 173);
             this.button3.Name = "button3";
@@ -286,7 +286,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button4.BackColor = System.Drawing.Color.Sienna;
             this.button4.Font = new System.Drawing.Font("Franklin Gothic Heavy", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.button4.Location = new System.Drawing.Point(935, 212);
             this.button4.Name = "button4";
@@ -297,7 +297,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panel1.BackColor = System.Drawing.Color.Sienna;
             this.panel1.Controls.Add(this.button9);
             this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.button7);
@@ -363,7 +363,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1142, 598);
+            this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.login2;
+            this.ClientSize = new System.Drawing.Size(1142, 586);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -372,6 +373,8 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "veresiye_satis";
             this.Text = "veresiye_satis";
             this.Load += new System.EventHandler(this.veresiye_satis_Load);
