@@ -111,6 +111,7 @@
             this.peşinSatışToolStripMenuItem.Name = "peşinSatışToolStripMenuItem";
             this.peşinSatışToolStripMenuItem.Size = new System.Drawing.Size(221, 30);
             this.peşinSatışToolStripMenuItem.Text = "Peşin Satış";
+            this.peşinSatışToolStripMenuItem.Click += new System.EventHandler(this.peşinSatışToolStripMenuItem_Click);
             // 
             // raporToolStripMenuItem
             // 

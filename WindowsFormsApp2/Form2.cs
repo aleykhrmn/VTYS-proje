@@ -65,5 +65,11 @@ namespace WindowsFormsApp2
             Form3  stok_ekranı = new Form3();
             stok_ekranı.ShowDialog();
         }
+
+        private void peşinSatışToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            pesin_satis pesinsatis = new pesin_satis();
+            pesinsatis.ShowDialog();
+        }
     }
 }
