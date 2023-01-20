@@ -37,8 +37,6 @@ namespace WindowsFormsApp2
 
         private void stokBilgiGörüntülemeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            stok_bilgi stb = new stok_bilgi();
-            stb.ShowDialog();
         }
 
         private void veresiyeSatışToolStripMenuItem_Click(object sender, EventArgs e)
