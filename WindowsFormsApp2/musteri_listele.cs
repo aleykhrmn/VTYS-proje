@@ -49,5 +49,26 @@ namespace WindowsFormsApp2
             textBox2.Text = dataGridView1.CurrentRow.Cells["müsteri_ad"].Value.ToString();
             textBox3.Text = dataGridView1.CurrentRow.Cells["müsteri_soyad"].Value.ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("insert into müsteri1(müsteri_no,müsteri_ad,müsteri_soyad) values(@müsteri_no,@müsteri_ad,@müsteri_soyad)");
+            komut.Parameters.AddWithValue("@müsteri_no", textBox1.Text);
+            komut.Parameters.AddWithValue("@müsteri_ad", textBox2.Text);
+            komut.Parameters.AddWithValue("@müsteri_soyad", textBox3.Text);
+            //komut.ExecuteNonQuery();
+            //baglanti.Close();
+            MessageBox.Show("Yeni müşteri eklendi.");
+            baglanti.Close();
+            foreach (Control item in this.Controls)
+            {
+                if (item is TextBox)
+                {
+                    item.Text = " ";
+                }
+
+            }
+        }
     }
 }
